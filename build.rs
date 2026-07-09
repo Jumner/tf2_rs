@@ -56,6 +56,7 @@ fn main() {
                 "rosidl_runtime_cpp",
                 "rosidl_runtime_c",
                 "rosidl_typesupport_interface",
+                "rosidl_buffer",
                 "rcutils",
                 "libstatistics_collector",
                 "statistics_msgs",

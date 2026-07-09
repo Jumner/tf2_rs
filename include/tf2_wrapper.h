@@ -5,10 +5,10 @@
 #include "rust/cxx.h"
 
 // TF2 BufferCore header path differs across distros; handle both.
-#if __has_include(<tf2/buffer_core.h>)
-  #include <tf2/buffer_core.h>
+#if __has_include(<tf2/buffer_core.hpp>)
+  #include <tf2/buffer_core.hpp>
 #else
-  #include <tf2/tf2/buffer_core.h>
+  #include <tf2/tf2/buffer_core.hpp>
 #endif
 
 // Forward-declare all cxx-shared structs in the GLOBAL namespace.
